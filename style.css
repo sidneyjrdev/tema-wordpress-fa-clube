@@ -15,7 +15,7 @@ Text Domain: fã-clube */
 
 
 /* ---- */
-body{ font-family: 'Open Sans', sans-serif; background-color: #111; width: 1367px; margin: 0 auto;}
+body{ font-family: 'Open Sans', sans-serif; background-color: #111; margin: 0 auto;}
 *{  box-sizing: border-box;}
 h1,h2{ font-weight: bold; }
 
@@ -176,3 +176,8 @@ a img.alignright {float:right; margin:0 0 1em 1em}
 a img.alignleft {float:left; margin:0 1em 1em 0}
 a img.aligncenter {display: block; margin-left: auto; margin-right: auto}
 
+@media (min-width: 1368px){
+      body{
+        width: 1367px;
+      }
+  }
